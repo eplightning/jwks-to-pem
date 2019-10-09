@@ -5,8 +5,8 @@ Useful for applications that require public key but don't have native JWKS suppo
 
 ## Usage
 
-``
-./jwks-to-pem https://www.googleapis.com/oauth2/v3/certs > public-key.pem
-./jwks-to-pem -format pkcs1 https://www.googleapis.com/oauth2/v3/certs > rsa-public-key.pem
-./jwks-to-pem -output public-key.pem https://www.googleapis.com/oauth2/v3/certs
-``
+```console
+$ ./jwks-to-pem https://www.googleapis.com/oauth2/v3/certs > public-key.pem
+$ ./jwks-to-pem -format pkcs1 https://www.googleapis.com/oauth2/v3/certs > rsa-public-key.pem
+$ ./jwks-to-pem -output public-key.pem https://www.googleapis.com/oauth2/v3/certs
+```
